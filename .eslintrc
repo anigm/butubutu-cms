@@ -1,0 +1,30 @@
+{
+  "extends": "eslint-config-egg",
+  "parserOptions": {
+    "ecmaVersion": 8 // or 2017
+  },
+  "rules": {
+    "semi": [
+      2,
+      "never"
+    ],
+    "indent": [
+      2,
+      2,
+      {
+        "SwitchCase": 1
+      }
+    ],
+    "comma-dangle": [
+      2,
+      "always-multiline"
+    ]
+  },
+  "globals": {
+    "app": true,
+    "request": true,
+    "mm": true,
+    "mock": true,
+    "assert": true
+  }
+}

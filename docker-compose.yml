@@ -1,0 +1,26 @@
+version: '2'
+
+services:
+  testapi:
+    image: node:7
+    ports:
+      - '7001:7001'
+    volumes:
+      - .:/app
+#      - /logs/zhenliaoquan-api:/logs/zhenliaoquan-api
+#      - /data/z2:/data/z2
+#      - /data/linux_node_modules:/app/node_modules
+    working_dir: /app
+    command: npm run dev
+    depends_on:
+      - redis
+    environment:
+      - REDIS=redis
+      - NODE_ENV=development
+      - EGG_SERVER_ENV=local
+  redis:
+    image: bitnami/redis:latest
+    ports:
+      - '6379:6379'
+    environment:
+      - REDIS_PASSWORD=R0Ehc1aC

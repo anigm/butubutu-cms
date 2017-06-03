@@ -1,0 +1,5 @@
+{
+  "name": "butubutu-cms",
+  "script": "./index.js",
+  "env": { "EGG_SERVER_ENV": "prod" }
+}

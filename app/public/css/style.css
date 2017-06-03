@@ -1,0 +1,93 @@
+body {
+  background-color: #efeff4;
+}
+
+.header {
+  padding: 10px;
+  height: 100px;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  background-color: #efeff4;
+}
+
+.title {
+  /*width: 211px;*/
+  height: 25px;
+  font-family: PingFangSC;
+  font-size: 18px;
+  text-align: center;
+  color: #000000;
+}
+
+.subTitle {
+  /*width: 280px;*/
+  height: 20px;
+  font-family: PingFangSC;
+  font-size: 14px;
+  text-align: center;
+  color: #888888;
+}
+
+.input-label {
+  width: 34px;
+  height: 24px;
+  margin-left: 15px;
+  font-family: PingFangSC;
+  font-size: 17px;
+  color: #000000;
+}
+
+input[placeholder] {
+  background-color: #ffffff;
+}
+
+.input-reg {
+  width: 119px;
+  height: 24px;
+  font-family: PingFangSC;
+  font-size: 17px;
+  color: #b2b2b2;
+}
+
+.submit {
+  width: 55px;
+  height: 25px;
+  opacity: 0.6;
+  font-family: PingFangSC;
+  font-size: 18px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.rectangle {
+  /*width: 335px;*/
+  height: 47px;
+  opacity: 0.4;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #1aae18;
+  border: solid 1px #179e16;
+}
+
+.fill {
+  width: 7.8px;
+  height: 5.6px;
+  background-color:solid 1px #09bb07;
+}
+
+.row {
+  /*width: 375px;*/
+  /*height: 88px;*/
+  background-color: #ffffff;
+}
+
+.agree {
+  /*width: 280px;*/
+  height: 18px;
+  font-family: PingFangSC;
+  font-size: 13px;
+  color: #576b95;
+}
